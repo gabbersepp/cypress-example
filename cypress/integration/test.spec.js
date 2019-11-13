@@ -1,5 +1,7 @@
 describe("initial", () => {
+    beforeEach(() => {
+    })
     it("test", () => {
-        cy.visit("https://twitter.com");
+        cy.visit("https://www.witt-weiden.de/");
     })
 })
