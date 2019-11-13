@@ -1,0 +1,13 @@
+{
+  "name": "cypress-example",
+  "version": "1.0.0",
+  "dependencies": {
+    "cypress": "^3.6.1",
+    "cypress-plugin-retries": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:rum": "set CYPRESS_RETRIES=3 && cypress run"
+  }
+}
