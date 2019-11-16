@@ -1,0 +1,46 @@
+{
+    "results": [{
+            "hits": [{
+                    "hierarchy": {
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl0": "route",
+                        "lvl1": null,
+                        "lvl6": null,
+                        "lvl4": null,
+                        "lvl5": null
+                    },
+                    "url": "https://witt-weiden.de",
+                    "content": "",
+                    "anchor": "article",
+                    "objectID": "238538981",
+                    "_snippetResult": {
+                        "content": {
+                            "value": "Gefunden!",
+                            "matchLevel": "full"
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy": {
+                            "lvl0": {
+                                "value": "<span class=\"algolia-docsearch-suggestion--highlight\">Dev Camp 16.11.2019</span>",
+                                "matchLevel": "full",
+                                "fullyHighlighted": true,
+                                "matchedWords": ["devcamp"]
+                            }
+                        }
+                    }
+                }
+            ],
+            "nbHits": 34,
+            "page": 0,
+            "nbPages": 7,
+            "hitsPerPage": 1,
+            "exhaustiveNbHits": true,
+            "query": "route",
+            "params": "query=route&hitsPerPage=5",
+            "index": "cypress",
+            "processingTimeMS": 11
+        }
+    ]
+}
