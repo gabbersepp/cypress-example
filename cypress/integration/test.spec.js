@@ -1,5 +1,9 @@
 describe("initial", () => {
     it("visit", () => {
-        cy.visit("https://witt-weiden.de");
+        cy.visit("/index.html");
+        cy
+            .get("p")
+            .contains("scroll")
+            .wait(5000)
     })
 })
