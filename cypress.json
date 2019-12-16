@@ -1,6 +1,11 @@
 {
-    "fixturesFolder": false,
+    "fixturesFolder": "cypress/fixtures",
     "pluginsFile": false,
     "supportFile": "cypress/support.js",
-    "defaultCommandTimeout": 10000
+    "defaultCommandTimeout": 10000,
+    "reporter": "junit",
+    "reporterOptions": {
+      "mochaFile": "results/my-test-output.xml",
+      "toConsole": true
+    }
   }

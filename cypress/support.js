@@ -1,1 +1,1 @@
-require('cypress-plugin-retries');
+import 'cypress-axe'
