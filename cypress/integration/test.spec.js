@@ -3,7 +3,7 @@ describe("initial", () => {
         cy.visit("/index.html");
         cy
             .get("p")
-            .contains("scroll")
-            .wait(5000)
+            .contains(/.*scroll.*/)
+            .should("be.visible")
     })
 })

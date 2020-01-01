@@ -2,7 +2,7 @@
   "name": "cypress-example",
   "version": "1.0.0",
   "dependencies": {
-    "cypress": "^3.6.1",
+    "cypress": "^3.8.0",
     "cypress-plugin-retries": "^1.4.0"
   },
   "devDependencies": {},
